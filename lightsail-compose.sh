@@ -21,7 +21,7 @@ version: \"3.2\"
 services:
 
         site:
-                image: davincium/site:latest
+                image: skela/davincium:latest
                 ports:
                         - \"80:80\"
 
