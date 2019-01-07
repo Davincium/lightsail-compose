@@ -16,14 +16,14 @@ chmod +x /usr/local/bin/docker-compose
 mkdir /srv/docker
 echo "
 
-version: "3.2"
+version: \"3.2\"
 
 services:
 
         site:
                 image: davincium/site:latest
                 ports:
-                        - "80:80"
+                        - \"80:80\"
 
 " > /srv/docker/docker-compose.yml
 
